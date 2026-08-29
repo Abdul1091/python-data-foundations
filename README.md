@@ -4,7 +4,9 @@ A hands-on learning repository for strengthening Python and NumPy foundations fo
 
 This repository documents my progression through Python and numerical computing as part of the **MIT Universal AI Program** and complementary **DataCamp** coursework, followed by independent practice and a small scientific data-analysis project.
 
-My broader programming background includes the **ALX Software Engineering Program**, from foundations through Backend specialization, where I developed and worked on multiple software projects. This repository focuses specifically on strengthening Python for scientific computing, data analysis, and future bioinformatics and AI applications.
+My broader programming background includes the **ALX Software Engineering Program**, from foundations through Backend specialization, where I developed and worked on multiple software projects. 
+
+Rather than reproducing course examples, the goal is to demonstrate independent understanding by applying each concept to new problems and progressively integrating the skills into practical scientific applications.
 
 ## Learning Sources
 
@@ -34,13 +36,14 @@ This repository is being built progressively while I develop practical skills in
 * [ ] NumPy 2D arrays
 * [ ] Biological Sample Analyzer
 
-## Repository Structure
+## Planned Repository Structure
 
 ```text
 python-data-foundations/
 ├── README.md
 ├── pyproject.toml
 ├── uv.lock
+│
 ├── exercises/
 │   ├── 01_python_basics.ipynb
 │   ├── 02_lists.ipynb
@@ -48,10 +51,11 @@ python-data-foundations/
 │   ├── 04_packages.ipynb
 │   ├── 05_numpy_1d.ipynb
 │   └── 06_numpy_2d.ipynb
+│
 └── projects/
     └── biological-sample-analyzer/
-        ├── analysis.ipynb
         ├── README.md
+        ├── analysis.ipynb
         └── data/
 ```
 
