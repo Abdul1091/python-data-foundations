@@ -18,8 +18,8 @@ Rather than reproducing course examples, the goal is to demonstrate independent 
 
 This repository is being built progressively while I develop practical skills in:
 
-* Python fundamentals
-* Data structures
+* Python fundamentals & Control Flow
+* Data structures (Lists & Dictionaries)
 * Functions
 * Python packages
 * NumPy
@@ -28,7 +28,9 @@ This repository is being built progressively while I develop practical skills in
 
 ## Progress
 
-* [ ] Python basics
+* [x] Python basics (`01_python_basics.ipynb`)
+* [ ] Control Flow & Logic
+* [ ] Loops & Debugging
 * [ ] Lists and dictionaries
 * [ ] Functions
 * [ ] Python packages
@@ -46,11 +48,13 @@ python-data-foundations/
 │
 ├── exercises/
 │   ├── 01_python_basics.ipynb
-│   ├── 02_lists.ipynb
-│   ├── 03_functions.ipynb
-│   ├── 04_packages.ipynb
-│   ├── 05_numpy_1d.ipynb
-│   └── 06_numpy_2d.ipynb
+│   ├── 02_logic_and_decisions.ipynb
+│   ├── 03_loops_and_debugging.ipynb
+│   ├── 04_lists_and_dictionaries.ipynb
+│   ├── 05_functions.ipynb
+│   ├── 06_packages.ipynb
+│   ├── 07_numpy_1d.ipynb
+│   └── 08_numpy_2d.ipynb
 │
 └── projects/
     └── biological-sample-analyzer/
@@ -81,6 +85,6 @@ The project uses:
 
 ## Current Stage
 
-The project environment has been configured using `uv`, with Jupyter and NumPy installed as project dependencies.
+Completed: Environment setup (uv, Jupyter, NumPy) and 01_python_basics.ipynb (variables, data types, arithmetic, indexing, slicing, string methods, interactive input, and capstone report generator).
 
-The next stage is **Python fundamentals**, followed by data structures, functions, packages, NumPy, and the Biological Sample Analyzer project.
+Next Stage: Control Flow and Logic (02_logic_and_decisions.ipynb), focusing on conditional statements (if/elif/else), logical operators, and domain-specific decision rules.
