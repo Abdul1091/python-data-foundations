@@ -29,7 +29,7 @@ This repository is being built progressively while I develop practical skills in
 ## Progress
 
 * [x] Python basics (`01_python_basics.ipynb`)
-* [ ] Control Flow & Logic
+* [x] Control Flow & Logic (`02_logic_and_decisions.ipynb`)
 * [ ] Loops & Debugging
 * [ ] Lists and dictionaries
 * [ ] Functions
@@ -85,6 +85,12 @@ The project uses:
 
 ## Current Stage
 
-Completed: Environment setup (uv, Jupyter, NumPy) and 01_python_basics.ipynb (variables, data types, arithmetic, indexing, slicing, string methods, interactive input, and capstone report generator).
+Completed:
 
-Next Stage: Control Flow and Logic (02_logic_and_decisions.ipynb), focusing on conditional statements (if/elif/else), logical operators, and domain-specific decision rules.
+- Environment setup (uv, Jupyter, NumPy).
+
+- 01_python_basics.ipynb (variables, data types, arithmetic, indexing, slicing, string methods, interactive input, and capstone report generator).
+
+- 02_logic_and_decisions.ipynb (Boolean truthiness, logical operators, if/elif/else control flow, string normalization in decisions, independent vs. nested conditionals, and Diagnostic Sample Classifier mini-challenge).
+
+Next Stage: Loops & Debugging (03_loops_and_debugging.ipynb), focusing on iteration (for, while), loop control flow (break, continue), exception handling, and systematically debugging logic errors.
