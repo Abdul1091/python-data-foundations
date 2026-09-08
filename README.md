@@ -30,7 +30,7 @@ This repository is being built progressively while I develop practical skills in
 
 * [x] Python basics (`01_python_basics.ipynb`)
 * [x] Control Flow & Logic (`02_logic_and_decisions.ipynb`)
-* [ ] Loops & Debugging
+* [ ] Loops & Debugging (`03_loops_and_debugging.ipynb`)
 * [ ] Lists and dictionaries
 * [ ] Functions
 * [ ] Python packages
@@ -93,4 +93,6 @@ Completed:
 
 - 02_logic_and_decisions.ipynb (Boolean truthiness, logical operators, if/elif/else control flow, string normalization in decisions, independent vs. nested conditionals, and Diagnostic Sample Classifier mini-challenge).
 
-Next Stage: Loops & Debugging (03_loops_and_debugging.ipynb), focusing on iteration (for, while), loop control flow (break, continue), exception handling, and systematically debugging logic errors.
+- 03_loops_and_debugging.ipynb (loop mechanics with for and while, range sequence generation, accumulator and counter patterns, manual trace tables, error classification, and instrumented debugging of silent logic defects).
+
+Next Stage: Data Structures (04_lists_and_dictionaries.ipynb), focusing on working with collections of data, list mutability vs. string immutability, sequence slicing, string parsing with .split() / .splitlines(), parallel collection pairing with zip(), custom sorting with key= and lambda, and list comprehensions for scientific datasets without external packages.
