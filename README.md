@@ -31,7 +31,7 @@ This repository is being built progressively while I develop practical skills in
 * [x] Python basics (`01_python_basics.ipynb`)
 * [x] Control Flow & Logic (`02_logic_and_decisions.ipynb`)
 * [ ] Loops & Debugging (`03_loops_and_debugging.ipynb`)
-* [ ] Lists and dictionaries
+* [ ] Lists and dictionaries (`04_lists.ipynb`)
 * [ ] Functions
 * [ ] Python packages
 * [ ] NumPy 1D arrays
@@ -50,11 +50,12 @@ python-data-foundations/
 │   ├── 01_python_basics.ipynb
 │   ├── 02_logic_and_decisions.ipynb
 │   ├── 03_loops_and_debugging.ipynb
-│   ├── 04_lists_and_dictionaries.ipynb
-│   ├── 05_functions.ipynb
-│   ├── 06_packages.ipynb
-│   ├── 07_numpy_1d.ipynb
-│   └── 08_numpy_2d.ipynb
+│   ├── 04_lists.ipynb
+│   ├── 05_dictionaries.ipynb
+│   ├── 06_functions.ipynb
+│   ├── 07_packages.ipynb
+│   ├── 08_numpy_1d.ipynb
+│   └── 09_numpy_2d.ipynb
 │
 └── projects/
     └── biological-sample-analyzer/
@@ -95,4 +96,6 @@ Completed:
 
 - 03_loops_and_debugging.ipynb (loop mechanics with for and while, range sequence generation, accumulator and counter patterns, manual trace tables, error classification, and instrumented debugging of silent logic defects).
 
-Next Stage: Data Structures (04_lists_and_dictionaries.ipynb), focusing on working with collections of data, list mutability vs. string immutability, sequence slicing, string parsing with .split() / .splitlines(), parallel collection pairing with zip(), custom sorting with key= and lambda, and list comprehensions for scientific datasets without external packages.
+- 04_lists.ipynb (list mechanics, mutability vs. string immutability, zero-based/negative indexing, sequence slicing, string parsing with .split(), parallel sequence pairing with zip(), custom sorting using key= and lambda expressions, and Laboratory Sample Manager capstone).
+
+Next Stage: Dictionaries (`05_dictionaries.ipynb`), focusing on key-value mapping structures, lookup efficiency ($O(1)$ time complexity), dictionary methods (`.keys()`, `.values()`, `.items()`), nested dictionary models for structured laboratory samples, dictionary iteration, and data aggregation without external packages.
