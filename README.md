@@ -30,8 +30,9 @@ This repository is being built progressively while I develop practical skills in
 
 * [x] Python basics (`01_python_basics.ipynb`)
 * [x] Control Flow & Logic (`02_logic_and_decisions.ipynb`)
-* [ ] Loops & Debugging (`03_loops_and_debugging.ipynb`)
-* [ ] Lists and dictionaries (`04_lists.ipynb`)
+* [x] Loops & Debugging (`03_loops_and_debugging.ipynb`)
+* [x] Lists (`04_lists.ipynb`)
+* [x] Dictionaries (`05_dictionaries.ipynb`)
 * [ ] Functions
 * [ ] Python packages
 * [ ] NumPy 1D arrays
@@ -90,12 +91,14 @@ Completed:
 
 - Environment setup (uv, Jupyter, NumPy).
 
-- 01_python_basics.ipynb (variables, data types, arithmetic, indexing, slicing, string methods, interactive input, and capstone report generator).
+- `01_python_basics.ipynb` (variables, data types, arithmetic, indexing, slicing, string methods, interactive input, and capstone report generator).
 
-- 02_logic_and_decisions.ipynb (Boolean truthiness, logical operators, if/elif/else control flow, string normalization in decisions, independent vs. nested conditionals, and Diagnostic Sample Classifier mini-challenge).
+- `02_logic_and_decisions.ipynb` (Boolean truthiness, logical operators, if/elif/else control flow, string normalization in decisions, independent vs. nested conditionals, and Diagnostic Sample Classifier mini-challenge).
 
-- 03_loops_and_debugging.ipynb (loop mechanics with for and while, range sequence generation, accumulator and counter patterns, manual trace tables, error classification, and instrumented debugging of silent logic defects).
+- `03_loops_and_debugging.ipynb` (loop mechanics with for and while, range sequence generation, accumulator and counter patterns, manual trace tables, error classification, and instrumented debugging of silent logic defects).
 
-- 04_lists.ipynb (list mechanics, mutability vs. string immutability, zero-based/negative indexing, sequence slicing, string parsing with .split(), parallel sequence pairing with zip(), custom sorting using key= and lambda expressions, and Laboratory Sample Manager capstone).
+- `04_lists.ipynb` (list mechanics, mutability vs. string immutability, zero-based/negative indexing, sequence slicing, string parsing with .split(), parallel sequence pairing with zip(), custom sorting using key= and lambda expressions, and Laboratory Sample Manager capstone).
 
-Next Stage: Dictionaries (`05_dictionaries.ipynb`), focusing on key-value mapping structures, lookup efficiency ($O(1)$ time complexity), dictionary methods (`.keys()`, `.values()`, `.items()`), nested dictionary models for structured laboratory samples, dictionary iteration, and data aggregation without external packages.
+- `05_dictionaries.ipynb` (hash table mechanics and constant-time lookups $\mathcal{O}(1)$, key immutability requirements, safe field retrieval via `.get()` and `in`, frequency counter accumulators, nested dictionaries for hierarchical biological metadata, dictionary comprehensions, and Research Sample Analyzer capstone).
+
+Next Stage: Functions & Modular Code (`06_functions.ipynb`), focusing on positional vs. keyword arguments, return statements, local vs. global scope, default parameters, type hints, and modular code encapsulation.
