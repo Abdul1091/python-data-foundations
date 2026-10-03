@@ -33,7 +33,7 @@ This repository is being built progressively while I develop practical skills in
 * [x] Loops & Debugging (`03_loops_and_debugging.ipynb`)
 * [x] Lists (`04_lists.ipynb`)
 * [x] Dictionaries (`05_dictionaries.ipynb`)
-* [ ] Functions
+* [x] Functions (`06_functions.ipynb`)
 * [ ] Python packages
 * [ ] NumPy 1D arrays
 * [ ] NumPy 2D arrays
@@ -99,6 +99,8 @@ Completed:
 
 - `04_lists.ipynb` (list mechanics, mutability vs. string immutability, zero-based/negative indexing, sequence slicing, string parsing with .split(), parallel sequence pairing with zip(), custom sorting using key= and lambda expressions, and Laboratory Sample Manager capstone).
 
-- `05_dictionaries.ipynb` (hash table mechanics and constant-time lookups $\mathcal{O}(1)$, key immutability requirements, safe field retrieval via `.get()` and `in`, frequency counter accumulators, nested dictionaries for hierarchical biological metadata, dictionary comprehensions, and Research Sample Analyzer capstone).
+- `05_dictionaries.ipynb` (key-value data structures, dictionary lookup and modification, safe retrieval with `.get()` and `in`, iteration, frequency counters, nested scientific records, dictionary comprehensions, and Research Sample Analyzer capstone).
 
-Next Stage: Functions & Modular Code (`06_functions.ipynb`), focusing on positional vs. keyword arguments, return statements, local vs. global scope, default parameters, type hints, and modular code encapsulation.
+- `06_functions.ipynb` (function definition and calls, parameters and arguments, positional and keyword arguments, return values, default parameters, local scope, basic type hints, function composition, modular organization, refactoring procedural code, and debugging common function-related errors).
+
+Next Stage: Python Packages (`07_packages.ipynb`), focusing on importing modules, using standard-library and external packages, understanding package structure, and organizing reusable Python code.
